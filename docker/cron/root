@@ -1,0 +1,2 @@
+* * * * * echo "Hello php-fpm continer" >> /dev/stdout 2>&1
+# * * * * * /usr/local/bin/php /var/www/html/artisan schedule:run >> /dev/stdout 2>&1
